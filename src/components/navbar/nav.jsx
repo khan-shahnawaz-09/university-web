@@ -26,7 +26,7 @@ const Nav = () => {
         <a href="#campus">campus</a>
         <a href="#testimonials">testimonials</a>
         <a>
-          <button className="contact">contact us</button>
+          <button className="contact">Contact Us</button>
         </a>
       </ul>
     </nav>
