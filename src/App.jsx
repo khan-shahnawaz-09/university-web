@@ -25,7 +25,7 @@ function App() {
       <Nav></Nav>
       <Hero></Hero>
       <div className="container">
-        <Title title="Our Programs" subtitle="Explore our programs" />
+        <Title title="Our Programs" subtitle="Explore Our Programs" />
         <Program></Program>
         <Title title="About Us" subtitle="Learn more about us" />
         <About></About>
