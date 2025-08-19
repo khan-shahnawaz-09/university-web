@@ -1,0 +1,53 @@
+
+
+.programs{
+  margin: 5rem 0;
+  text-align: center;
+  color: #7f5539;
+ 
+}
+.programList{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+.programs img{
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.program{
+  position: relative;
+} 
+
+.caption{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  transition: all 0.3s ease;
+  padding-top: 70%;
+}
+.program:hover .caption{
+  opacity: 1;
+  padding-top: 0;
+}
+
+.caption p{
+   font-size: 1.5rem;
+  font-weight: 700;
+}
+.caption img{
+  width: 35px;
+}

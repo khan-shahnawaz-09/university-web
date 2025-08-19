@@ -1,0 +1,121 @@
+.contact{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 1.5;
+  flex-basis: 45%;
+}
+.contact-container h1 img{
+  width: 60px; 
+}
+.contact-container h1{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-container  p{
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.contact-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;}
+  
+.contact-container form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+} 
+label{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #333;
+}
+.contact-container form input,
+.contact-container form textarea{
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  color: #333;
+  outline: none;  
+  border: none;
+  border-radius: 7px;
+  background-color: #f0f0f0;
+}
+.contact-container form input:focus,
+.contact-container form textarea:focus{
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.contact-container form button{
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  text-transform: capitalize;
+  outline: none;  
+  border: none;
+  border-radius: 7px;
+  background-color: #333;
+  cursor: pointer;
+  width: 10rem;
+  margin: 20px 10px;
+  transition: all 0.3s ease;
+}
+.contact-container form button:hover{
+  background-color: #555;
+}
+.contact-container form button:disabled{
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.contact-container form .error{
+  color: red;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: -20px;
+}
+/* Reuse your alert styles */
+.alert {
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Success and error color styles */
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* 🔥 Smooth fade-in effect */
+.fade-in {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

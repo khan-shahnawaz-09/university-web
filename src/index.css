@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ancizar Serif", serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+ background-color: #fdf7f2; /* soft warm background */
+}
+.container{
+  padding-inline: 10%;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  
+}

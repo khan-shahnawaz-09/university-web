@@ -1,0 +1,17 @@
+
+.Title{
+  text-align: center;
+  margin-block:6rem;
+}
+.Title h1 {
+  font-size: 2.5rem;
+  color: #562607;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 1.2rem;
+  fott-weight: 400;
+  color: #7f5539;
+}

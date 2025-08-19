@@ -1,0 +1,38 @@
+.about  {
+  display: flex;
+  align-items: center;
+  margin: 0 3rem 0 5rem;
+  /* background-color: red; */
+  gap:5rem;
+
+}
+
+ img {
+ width: 450px;
+border-radius: 10px;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  max-width: 700px;
+}
+ 
+.about-text h1 {
+  font-size: 2.5rem;
+    color: #562607;
+
+}
+.about-text h3 {
+  font-size: 1.3rem;
+    color: #f4a26c;
+
+}
+.about-text p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+    color: #7f5539;
+
+
+}
